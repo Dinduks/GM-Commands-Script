@@ -1,0 +1,8 @@
+This script allows you to execute GM commands on your MaNGOS server without logging into the game, only from a command line. 
+
+How to: 
+- Enable PHP's SOAP extension (extension=php_soap.dll in php.ini)
+- Specify you username, password and the server's IP in the script itself
+  The username and the password are the ones that you use to log into your GM account
+- Open a command prompt, cd /the/scripts/dir/, and execute commands this way: php gm.php character level Dinduks 70
+  Make sure you have php in your path
